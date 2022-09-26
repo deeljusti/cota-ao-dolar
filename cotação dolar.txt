@@ -1,0 +1,18 @@
+
+cotação dolar
+
+declaração
+cotação-dolar: decimal;
+valor-em-dolar: decimal;
+converta valor em reais: decimal;
+resultado: decimal;
+
+inicio
+
+	escreva("digite cotação do dolar atual");
+	leia(cotação-dolar);
+	escreva("digite valor em dolar, não pode ser menor que $10");
+	leia(valor-em-dolar);
+	resultado<- cotação-dolar*valor-em-dolarescreva(resultado)
+	
+fim algorotimo	
